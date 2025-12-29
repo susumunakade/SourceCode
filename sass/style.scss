@@ -295,8 +295,14 @@ body{
   &__item_link{
     font-size: 14px;
     text-decoration: underline;
+    transition: color 1s;
+
+    &:hover{
+    color: color.$heading;
+    }
   }
 
+  
 }
 
 // about

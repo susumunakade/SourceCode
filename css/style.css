@@ -221,6 +221,11 @@ body.is_fixed {
 .works__item_link {
   font-size: 14px;
   text-decoration: underline;
+  -webkit-transition: color 1s;
+  transition: color 1s;
+}
+.works__item_link:hover {
+  color: #4d4dfb;
 }
 
 .about__img {
