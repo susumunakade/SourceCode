@@ -14,7 +14,9 @@
 /*---------------------------
 // 共通
 ---------------------------*/
-
+a:hover{
+      color: color.$heading;
+    }
 
 /*---------------------------
 // sp
@@ -297,12 +299,8 @@ body{
     text-decoration: underline;
     transition: color 1s;
 
-    &:hover{
-    color: color.$heading;
-    }
+    
   }
-
-  
 }
 
 // about
