@@ -2010,9 +2010,6 @@ body {
     font-size: 20px;
   }
 }
-.prizes__bottom {
-  overflow: hidden;
-}
 .prizes__pic {
   min-width: 580px;
   height: 260px;
@@ -2218,6 +2215,7 @@ body {
   .spots__slider {
     width: 400px;
     margin-left: 318px;
+    width: 253px;
   }
 }
 .spots__swiper {
@@ -2250,7 +2248,7 @@ body {
   .spots__swiper-slide_img img {
     width: 344px;
     height: 240px;
-    border-radius: 21px;
+    border-radius: 21px 21px 0px 0px;
   }
 }
 .spots__swiper-slide_content {
@@ -2968,7 +2966,7 @@ body {
   background-color: #9ED0E0;
   position: absolute;
   left: 6px;
-  top: 45%;
+  top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   opacity: 0;
